@@ -1,0 +1,1 @@
+curl -s "https://api.github.com/repos/soha54420/mcino-Introduction-to-Git-and-GitHub/pulls?state=all" | grep -E '"html_url"|"title"|"full_name"|"head"|"base"'
