@@ -1,0 +1,11 @@
+Command:
+curl -s https://api.github.com/repos/soha54420/mcino-Introduction-to-Git-and-GitHub | grep -E '"full_name"|"fork"'
+
+Output:
+
+  "full_name": "soha54420/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "fork": false,
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "fork": false,
