@@ -1,0 +1,19 @@
+Step 1: Create the bug-fix-typo branch
+cmd:
+git checkout -b bug-fix-typo
+o/p:
+Switched to a new branch 'bug-fix-typo'
+Step 2: Make a small change
+cmd:
+echo "Typo fix" >> typo-fix.txt
+git add typo-fix.txt
+git commit -m "Fix typo"
+o/p:
+ 1 file changed, 1 insertion(+)
+ create mode 100644 typo-fix.txt
+Step 3: Switch to main and merge
+cmd:
+git checkout main
+git merge bug-fix-typo
+o/p:
+Switched to branch 'main'
