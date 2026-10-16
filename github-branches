@@ -1,0 +1,9 @@
+Command: git branch -a
+  bug-fix-typo
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+Command: git status
+On branch main
+Your branch is up to date with 'origin/main'.
